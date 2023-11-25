@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 	$p1 = array("Copier", "Inkjet", "Laser", "Photo");
 	echo "p1 element: " . $p1[2] . "<br>";

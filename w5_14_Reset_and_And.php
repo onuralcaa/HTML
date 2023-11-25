@@ -1,4 +1,4 @@
- Dizinin ilk değeri
+ Dizinin ilk değeri 
  
 • reset($fred); // Throw away return value
 • $item = reset($fred); // Keep first element of the array in $item

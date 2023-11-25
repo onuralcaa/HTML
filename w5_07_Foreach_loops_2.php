@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 	$paper = array('copier' => "Copier & Multipurpose",
 					'inkjet' => "Inkjet Printer",

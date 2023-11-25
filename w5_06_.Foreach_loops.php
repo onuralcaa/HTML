@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 	$paper = array("Copier", "Inkjet", "Laser", "Photo");
 	

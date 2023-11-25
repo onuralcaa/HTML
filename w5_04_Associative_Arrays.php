@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 	$paper['copier'] = "Copier & Multipurpose";
 	$paper['inkjet'] = "Inkjet Printer";
