@@ -11,5 +11,5 @@ $d = 'Rasmus Lerdorf';
 printf("[%12.8s]\n", $d); // sağa yasla, 8 karakterden sonra kes
 printf("[%-12.12s]\n", $d); // sola yasla, 12 karakterden sonra kes
 printf("[%-'@12.10s]\n", $d); // sola yasla, 10 karakterden sonra kes, @ işaretiyle doldur
-
+//echo "</pre>";
 ?>

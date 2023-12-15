@@ -14,7 +14,7 @@ $rows = $result->num_rows; //3
 for($j = 0 ; $j < $rows ; ++$j)
 {
 	$row = $result->fetch_array(MYSQLI_NUM);
-	echo htmlspecialchars($row[0]) . " purchased ISBN ";
+	echo htmlspecialchars($row[0]) . " purchased ISBN ".
 	     htmlspecialchars($row[1]) . ":<br>";
 
 	$subquery = "SELECT * FROM classics WHERE isbn = '$row[1]'";
@@ -22,7 +22,7 @@ for($j = 0 ; $j < $rows ; ++$j)
 	if(!$subresult) die("Database access failed");
 
 	$subrow = $subresult->fetch_array(MYSQLI_NUM);
-	echo "&nbsp;&nsbp;" . htmlspecialchars("'$subrow[1]'") . " by ".
+	echo "&nbsp;&nbsp;" . htmlspecialchars("'$subrow[1]'") . " by ".
 						  htmlspecialchars( $subrow[0] ) . "<br><br>";
 }
 

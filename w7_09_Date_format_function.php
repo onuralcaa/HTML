@@ -2,6 +2,8 @@
 
 //date($format, $timestamp);
 
+echo "<br>";
+
  echo date("l F jS, Y - g:ia", time());
 //çıktı :  Thursday July 6th, 2017 - 1:38pm
 
