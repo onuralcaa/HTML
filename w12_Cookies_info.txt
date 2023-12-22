@@ -1,0 +1,23 @@
+cookie:
+
+• Kullanıcı sayfada oturum açmamışsa bile o anki oturum ve tercihleri
+hakkında kaydetmemiz gereken şeyler olabilir.
+
+• Kimlik doğrulama ve oturum için çerezler kullanılabilir
+
+• Web browser aracılığıyla sunucunun hard diskinize yazdığı 4KB’yi geçmeyen
+verilerdir.
+
+• Oturum takibi, alışveriş sepeti içerikleri, login detayları, çoklu ziyaretler için
+data saklama gibi sebeplerle kullanılırlar.
+
+• Gizlilikle ilgili sebeplerden dolayı çerezler yalnızca yayınlayan tarafından
+okunabilir.
+
+• Web sayfalarının çalışma şekli nedeniyle, web sayfaları bir çok domainin
+gömülü verilerini bulundurabilir. Bunlar üçüncü taraf çerezleri olarak
+anılırlar. Genellikle bunlar birden çok web sitesinde kullanıcıları izlemek için
+reklam şirketleri tarafından oluşturulur.
+
+• Kullanıcılar isterse üçüncü parti çerezleri hatta tüm çerezleri browser
+ayarlarından engelleyebilir.
