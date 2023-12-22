@@ -1,4 +1,5 @@
-cookie:
+cookie: 
+
 
 • Kullanıcı sayfada oturum açmamışsa bile o anki oturum ve tercihleri
 hakkında kaydetmemiz gereken şeyler olabilir.
