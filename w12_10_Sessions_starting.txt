@@ -1,0 +1,11 @@
+Session başlatma:
+
+• Cookielerin kullanımına benzer şekilde html çıktısından önce oturum
+
+session_start() fonksiyonuyla başlatılır.
+
+• Session global değişkenleri $_SESSION dizisinde tutulur
+
+• $_SESSION['variable'] = $value;
+
+• $variable = $_SESSION['variable'];
