@@ -1,0 +1,4 @@
+Zaman aşımı ayarı
+
+• ini_set('session.gc_maxlifetime', 60 * 60 * 24);
+• echo ini_get('session.gc_maxlifetime');
