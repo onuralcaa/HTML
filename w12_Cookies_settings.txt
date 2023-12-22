@@ -1,0 +1,30 @@
+Cookie Ayarlama:
+
+PHP’de çerez ayarlama setcookie fonksiyonuyla yapılır. Bu işlem HTML transferi
+başlamadan yapılmalıdır.
+
+setcookie(name, value, expire, path, domain, secure, httponly);
+
+name: adı (location)
+
+value: değeri (TR)
+
+expire*: sona erme zamanı (time() + 2592000). Belirlenmezse browser
+kapatıldığında sona erer.
+
+path*: Yol (Eğer / ise tüm domainde, eğer subdirectory ise sadece orada)
+
+domain*: (webserver.com) kendisi ve tüm subdomainler için geçerli olur.
+
+secure*: (TRUE) sadece https:// bağlantılarında. Varsayılan (FALSE)
+
+httponly*: (TRUE) olursa sadece http kullanabilir, mesela javascript kullanamaz
+
+• setcookie('location', 'TR', time() + 60 * 60 * 24 * 7, '/');
+
+• if (isset($_COOKIE['location'])) $location = $_COOKIE['location'];
+yoketmek için
+
+• setcookie('location', 'TR', time() - 2592000, '/');
+• Veya
+• setcookie('location', '', time() - 2592000, '/');
