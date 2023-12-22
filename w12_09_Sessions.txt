@@ -1,0 +1,12 @@
+Sessionları kullanma
+
+Cookie lerden en büyük farkı sunucu tarafında bulunmasıdır.
+Cookieler web browser ı tarafından saklanan verilerdi fakat session lar sunucu tarafında kullanıcıların verisini saklarlar.
+
+• Hidden alanlar gibi bir sayfadan diğerine veri aktarmak sessionlarla
+yapılabilir.
+• Sessionlar daha güçlü,daha güvenli ve kullanımı kolaydır.
+• Sessionlar aracılığıyla, değişken grubu, web sunucusu tarafında, her
+bir kullanıcı için ayrı ayrı tutulur.
+• PHP kullanıcıları birbirinden ayırmak için web browserları benzersiz
+olarak tanımlayan cookieler kullanır.
