@@ -21,3 +21,7 @@ reklam şirketleri tarafından oluşturulur.
 
 • Kullanıcılar isterse üçüncü parti çerezleri hatta tüm çerezleri browser
 ayarlarından engelleyebilir.
+
+• Çerezler, bir web sayfasının gerçek HTML'inin gönderilmesinden önce,
+başlıkların aktarımı sırasında değiştirilir ve herhangi bir HTML
+aktarıldıktan sonra bir çerez göndermek imkansızdır.
