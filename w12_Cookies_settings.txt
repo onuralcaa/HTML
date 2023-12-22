@@ -23,7 +23,9 @@ httponly*: (TRUE) olursa sadece http kullanabilir, mesela javascript kullanamaz
 • setcookie('location', 'TR', time() + 60 * 60 * 24 * 7, '/');
 
 • if (isset($_COOKIE['location'])) $location = $_COOKIE['location'];
-yoketmek için
+
+
+yoketmek için:
 
 • setcookie('location', 'TR', time() - 2592000, '/');
 • Veya
