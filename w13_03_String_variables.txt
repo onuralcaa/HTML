@@ -1,0 +1,9 @@
+String Variables
+
+• greeting = "Hello there"
+• warning = 'Be careful'
+• greeting = "\"Hello there\" is a greeting"
+• warning = '\'Be careful\' is a warning'
+• newstring = oldstring
+• status = "All systems are working"
+• document.write(status)
