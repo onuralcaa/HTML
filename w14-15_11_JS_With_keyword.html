@@ -1,0 +1,17 @@
+<script>
+  string = "The quick brown fox jumps over the lazy dog"
+
+ //document.write(string.length)
+
+//string in length özelliği veya başka işlemler string ile yapılacak anlamında kullanılır.
+  with (string)
+  {
+    document.write("The string is " + length + " characters<br>")
+    document.write("In upper case it's: " + toUpperCase())
+  }
+</script>
+
+<!--
+The string is 43 characters
+In upper case it's: THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+-->
